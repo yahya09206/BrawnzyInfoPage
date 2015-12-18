@@ -8,7 +8,19 @@
 	position: relative;
 }
 
-#sweets {
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #cc9900 transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #cc9900;
+}
+/*#sweets {
 	position: absolute;
 	bottom: -400px;
 	left: 0;
@@ -18,10 +30,10 @@
 	-webkit-transition: all 1.1s ease-out;
 }
 /*section two*/
-.fp-viewing-1 #sweets {
+/*.fp-viewing-1 #sweets {
 	bottom: -40px;
 }
-/*when it reaches section 3*/
+when it reaches section 3
 .fp-viewing-2 #sweets {
-	bottom: 0;
-}
+	bottom: 0;*/
+/*}*/

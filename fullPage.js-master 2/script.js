@@ -1,7 +1,6 @@
 $(document).ready(function() {
  $('#fullpage').fullpage({
- 	navigation: true,
- 	// continuousVertical: false,
+ 	continuousVertical: true,
 
  	// afterRender: function(){
  	// 	setInterval(function() {
