@@ -18,13 +18,13 @@
 		$(document).ready(function() {
    			 $('#fullpage').fullpage({
    			 	navigation: true,
-   			 	continuousVertical: true,
+   			 	continuousVertical: false,
 
-   			 	afterRender: function(){
-   			 		setInterval(function() {
-   			 			$.fn.fullpage.moveSectionDown();
-   			 		}, 3000);
-   			 	}
+   			 	// afterRender: function(){
+   			 	// 	setInterval(function() {
+   			 	// 		$.fn.fullpage.moveSectionDown();
+   			 	// 	}, 3000);
+   			 	// }
 		});
    	});
 	</script>
@@ -33,19 +33,24 @@
 		.section{
 			font-size: 6em;
 			text-align: center;
+			color: #cc9900;
+			font-weight: normal;
 		}
 	</style>
 </head>
 <body>
 	<div id="fullpage">
-	    <div class="section"><h3>Your one-stop workout log</h3>
-
+	    <div class="section">
+	    	<h3>Your one-stop workout log</h3>	
 	    </div>
-	    <div class="section">How to</div>
-	    <div class="section">About the developers
 
-	    <p><h6>Yahya Hussein</p></h6>
-	    <p><h6>Andrew Mestas</p></h6>
+	    <div class="section">How to
+	    	<img id="sweets" src="candy.jpg" />
+	    </div>
+
+	    <div class="section">About the developers
+		    <p><h6>Yahya Hussein</p></h6>
+		    <p><h6>Andrew Mestas</p></h6>
 	    </div>
 	</div>
 </body>
