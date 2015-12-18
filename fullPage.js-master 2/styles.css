@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+
+.section{
+	font-size: 6em;
+	text-align: center;
+	color: #cc9900;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+}
+
+#sweets {
+	position: absolute;
+	bottom: -400px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	transition: all 1.1s ease-out;
+	-webkit-transition: all 1.1s ease-out;
+}
+/*section two*/
+.fp-viewing-1 #sweets {
+	bottom: -40px;
+}
+/*when it reaches section 3*/
+.fp-viewing-2 #sweets {
+	bottom: 0;
+}
