@@ -17,11 +17,16 @@
 
 		$(document).ready(function() {
    			 $('#fullpage').fullpage({
+   			 	navigation: true,
+   			 	continuousVertical: true,
 
-   			 sectionsColor:['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
-   			 css3: true
-   			 });
+   			 	afterRender: function(){
+   			 		setInterval(function() {
+   			 			$.fn.fullpage.moveSectionDown();
+   			 		}, 3000);
+   			 	}
 		});
+   	});
 	</script>
 
 	<style type="text/css">
@@ -33,9 +38,15 @@
 </head>
 <body>
 	<div id="fullpage">
-	    <div class="section">Some section 1</div>
-	    <div class="section">Some section2</div>
-	    <div class="section">Some section3</div>
+	    <div class="section"><h3>Your one-stop workout log</h3>
+
+	    </div>
+	    <div class="section">How to</div>
+	    <div class="section">About the developers
+
+	    <p><h6>Yahya Hussein</p></h6>
+	    <p><h6>Andrew Mestas</p></h6>
+	    </div>
 	</div>
 </body>
 </html>
