@@ -20,6 +20,13 @@
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #cc9900;
 }
+.image {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	clear: auto;
+	display: inline-block;
+}
 /*#sweets {
 	position: absolute;
 	bottom: -400px;
