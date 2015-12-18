@@ -1,6 +1,6 @@
 # BrawnzyInfoPage
 ----------------------------------------------------
-Info page on how to use brawnzy workout tracker app
+Info page on how to use Brawnzy, a workout tracker app
 Created by Andrew Mestas & Yahya Hussein
 
 -------------------------------------------
@@ -17,7 +17,7 @@ User Stories
 
 This app is everyone who doesn't like to carry around obnoxious notebooks just to track their workouts/progress. Brawnzy handles all of that for you.
 
-If you're out of town and don't know the area too well but still want to get a workout at the gym, the nearme feature will search for gyms around the area that you're in.
+If you're out of town and don't know the area too well but still want to get a workout, the nearme feature will search for gyms around you based on your location.
 
 ---------------------------------------------
 Future updates
