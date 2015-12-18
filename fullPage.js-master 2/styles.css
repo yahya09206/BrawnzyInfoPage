@@ -21,8 +21,19 @@
     border-color: transparent transparent transparent #cc9900;
 }
 .devpic {
-	max-width: 300px;
+	max-width: 80% !important;
 }
+
+.yahya{
+	   margin-left: 16% !important; 
+}
+.git:hover, .link:hover{
+	color: black;
+}
+.git, .link{
+	color: #cc9900;
+}
+
 /*#sweets {
 	position: absolute;
 	bottom: -400px;
