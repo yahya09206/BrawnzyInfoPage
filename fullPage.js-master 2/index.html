@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brawnzy</title>
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="vendors/jquery.easings.min.js"></script>
+
+	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+   			 $('#fullpage').fullpage({
+
+   			 sectionsColor:['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke'],
+   			 css3: true
+   			 });
+		});
+	</script>
+
+	<style type="text/css">
+		.section{
+			font-size: 6em;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="fullpage">
+	    <div class="section">Some section 1</div>
+	    <div class="section">Some section2</div>
+	    <div class="section">Some section3</div>
+	</div>
+</body>
+</html>
